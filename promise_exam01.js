@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 function getData() {
     return new Promise(function (resolve, reject) {
-      $.get('http://www.naver.com', function (response) {
+      request.get('http://www.naver.com', function (response) {
         if (response) {
           resolve(response);
         }
