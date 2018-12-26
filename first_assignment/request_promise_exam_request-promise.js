@@ -23,7 +23,6 @@ rp('http://www.naver.com')
     
             for (let i = 0; i < 10; i++) {
                 search_url_arr[i] = search_url_arr[20+i];
-                console.log(search_url_arr[i]);
                 
                 rp(search_url_arr[i])
                     .then(function(body) {
