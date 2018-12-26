@@ -46,6 +46,5 @@ rp('http://www.naver.com')
                 }
         
     }).catch(function (err) {
-        console.log('bye');
         console.log(err);
     });
