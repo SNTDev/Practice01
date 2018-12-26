@@ -28,8 +28,8 @@ _promise(url).then((url) => {
     
             
             search_url.each(function(i, elem) {
-    
                 search_url_arr[i] = $(this).attr('href');
+                
             });
     
             for (let i = 0; i < 10; i++) {
